@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - myGym</title>
+    <link rel="stylesheet" href="Contact Us.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">Fitness & Wellness</div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Nutrition.html">Nutrition</a></li>
+                <li><a href="Workout.html">Workouts</a></li>
+                <li><a href="Photos.html">Photos</a></li>
+                <li><a href="Contact Us.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="contact-section">
+        <h1>Contact Us</h1>
+        <p>Have questions? Get in touch with us!</p>
+
+        <div class="contact-form">
+            <form action="submit_form.php" method="POST">
+                
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+
+                
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+
+                
+                <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
